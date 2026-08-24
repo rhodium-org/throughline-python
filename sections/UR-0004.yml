@@ -1,0 +1,11 @@
+uid: UR-0004
+type: user_requirement
+status: approved
+title: When to Use Trailing Commas
+text: >-
+  Rules governing the use of trailing commas in literals and argument lists.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "PEP 8: When to Use Trailing Commas"

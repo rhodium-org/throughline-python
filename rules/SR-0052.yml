@@ -1,0 +1,12 @@
+uid: SR-0052
+type: system_requirement
+status: approved
+title: Use context managers to release resources
+text: >-
+  Use a with statement (a context manager) to ensure resources such as files are cleaned
+  up promptly and reliably after use.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "PEP 8: Programming Recommendations"

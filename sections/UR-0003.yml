@@ -1,0 +1,12 @@
+uid: UR-0003
+type: user_requirement
+status: approved
+title: Whitespace in Expressions and Statements
+text: >-
+  Rules governing where whitespace does and does not belong within expressions and
+  statements.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "PEP 8: Whitespace in Expressions and Statements"

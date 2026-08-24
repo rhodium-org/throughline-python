@@ -1,0 +1,12 @@
+uid: SR-0003
+type: system_requirement
+status: approved
+title: Limit lines to 79 characters
+text: >-
+  Limit all lines to a maximum of 79 characters, and limit flowing long blocks of text
+  such as docstrings and comments to 72 characters.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "PEP 8: Code Lay-out — Maximum Line Length"

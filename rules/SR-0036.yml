@@ -1,0 +1,12 @@
+uid: SR-0036
+type: system_requirement
+status: approved
+title: Name constants in UPPER_CASE
+text: >-
+  Constants are usually defined at module level and written in all capital letters with
+  underscores separating words.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "PEP 8: Naming Conventions — Constants"

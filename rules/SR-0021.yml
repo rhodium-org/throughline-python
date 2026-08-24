@@ -1,0 +1,13 @@
+uid: SR-0021
+type: system_requirement
+status: approved
+title: No spaces around = for keyword arguments and defaults
+text: >-
+  Do not use spaces around the = sign when it indicates a keyword argument or a default
+  parameter value — unless a type annotation is present, in which case do add spaces
+  around the =.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "PEP 8: Whitespace in Expressions and Statements — Other Recommendations"

@@ -1,0 +1,11 @@
+uid: SR-0051
+type: system_requirement
+status: approved
+title: Do not compare boolean values with ==
+text: >-
+  Do not compare boolean values to True or False using ==; test the value directly.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "PEP 8: Programming Recommendations"

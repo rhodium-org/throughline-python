@@ -1,0 +1,12 @@
+uid: SR-0020
+type: system_requirement
+status: approved
+title: Surround binary operators with a single space
+text: >-
+  Surround these binary operators with a single space on either side: assignment,
+  augmented assignment, comparisons, and Booleans.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "PEP 8: Whitespace in Expressions and Statements — Other Recommendations"

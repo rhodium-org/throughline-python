@@ -1,0 +1,11 @@
+uid: SR-0016
+type: system_requirement
+status: approved
+title: No whitespace before a comma, semicolon or colon
+text: >-
+  Avoid whitespace immediately before a comma, semicolon or colon.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "PEP 8: Whitespace in Expressions and Statements — Pet Peeves"

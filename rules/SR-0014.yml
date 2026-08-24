@@ -1,0 +1,13 @@
+uid: SR-0014
+type: system_requirement
+status: approved
+title: Choose one quote style and use it consistently
+text: >-
+  Single-quoted and double-quoted strings are the same; pick one style and stick to it.
+  When a string contains a quote character, use the other style to avoid backslashes,
+  which improves readability.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "PEP 8: String Quotes"

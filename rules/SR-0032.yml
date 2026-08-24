@@ -1,0 +1,12 @@
+uid: SR-0032
+type: system_requirement
+status: approved
+title: Name modules in short all-lowercase
+text: >-
+  Modules should have short, all-lowercase names; underscores may be used if they improve
+  readability.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "PEP 8: Naming Conventions — Package and Module Names"

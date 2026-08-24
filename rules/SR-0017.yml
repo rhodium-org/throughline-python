@@ -1,0 +1,12 @@
+uid: SR-0017
+type: system_requirement
+status: approved
+title: Treat the slice colon as a binary operator
+text: >-
+  In a slice the colon acts like a binary operator and should have equal amounts of space
+  on either side.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "PEP 8: Whitespace in Expressions and Statements — Pet Peeves"

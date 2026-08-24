@@ -1,0 +1,11 @@
+uid: SR-0033
+type: system_requirement
+status: approved
+title: Name packages in short all-lowercase without underscores
+text: >-
+  Packages should have short, all-lowercase names; the use of underscores is discouraged.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "PEP 8: Naming Conventions — Package and Module Names"

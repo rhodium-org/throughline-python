@@ -1,0 +1,12 @@
+uid: SR-0040
+type: system_requirement
+status: approved
+title: Never name a variable l, O or I
+text: >-
+  Never use the single characters l, O or I as variable names, because they are
+  indistinguishable from the digits one and zero in many fonts.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "PEP 8: Naming Conventions — Names to Avoid"

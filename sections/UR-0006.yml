@@ -1,0 +1,12 @@
+uid: UR-0006
+type: user_requirement
+status: approved
+title: Naming Conventions
+text: >-
+  Rules governing the naming of modules, packages, classes, functions, variables,
+  constants and exceptions.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "PEP 8: Naming Conventions"

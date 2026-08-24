@@ -1,0 +1,12 @@
+uid: SR-0041
+type: system_requirement
+status: approved
+title: End error exception names in Error
+text: >-
+  Exception names should use the CapWords convention and should end in Error where the
+  exception really is an error.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "PEP 8: Naming Conventions — Exception Names"

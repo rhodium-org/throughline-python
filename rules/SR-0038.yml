@@ -1,0 +1,12 @@
+uid: SR-0038
+type: system_requirement
+status: approved
+title: Use two leading underscores for name-mangled class-private members
+text: >-
+  Use two leading underscores to invoke Python's name mangling for an attribute that must
+  be private to its class.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "PEP 8: Naming Conventions — Designing for Inheritance"

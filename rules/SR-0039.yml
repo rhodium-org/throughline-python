@@ -1,0 +1,12 @@
+uid: SR-0039
+type: system_requirement
+status: approved
+title: Name the first method argument self or cls
+text: >-
+  Always use self for the first argument to an instance method and cls for the first
+  argument to a class method.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "PEP 8: Naming Conventions — Function and Method Arguments"

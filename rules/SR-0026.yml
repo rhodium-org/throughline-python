@@ -1,0 +1,12 @@
+uid: SR-0026
+type: system_requirement
+status: approved
+title: Keep comments current with the code
+text: >-
+  Comments that contradict the code are worse than no comments; always keep comments up to
+  date when the code changes.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "PEP 8: Comments"

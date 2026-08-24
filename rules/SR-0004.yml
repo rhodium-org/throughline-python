@@ -1,0 +1,12 @@
+uid: SR-0004
+type: system_requirement
+status: approved
+title: Wrap long lines using implied continuation inside brackets
+text: >-
+  Wrap long lines using Python's implied line continuation inside parentheses, brackets
+  and braces, in preference to a backslash.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "PEP 8: Code Lay-out — Maximum Line Length"

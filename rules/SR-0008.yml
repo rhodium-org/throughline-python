@@ -1,0 +1,11 @@
+uid: SR-0008
+type: system_requirement
+status: approved
+title: Put each import on its own line
+text: >-
+  Imports should usually be on separate lines, not comma-joined on one line.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "PEP 8: Code Lay-out — Imports"

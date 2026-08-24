@@ -1,0 +1,12 @@
+uid: SR-0013
+type: system_requirement
+status: approved
+title: Place module-level dunders after the docstring, before imports
+text: >-
+  Place module level dunder names such as __all__ and __version__ after the module
+  docstring but before any imports except __future__ imports.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "PEP 8: Code Lay-out — Module Level Dunder Names"

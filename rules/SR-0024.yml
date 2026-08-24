@@ -1,0 +1,12 @@
+uid: SR-0024
+type: system_requirement
+status: approved
+title: Use a trailing comma for one-element tuples
+text: >-
+  Trailing commas are usually optional, but are mandatory when they are what makes a
+  one-element tuple, and are then best wrapped in parentheses for clarity.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "PEP 8: When to Use Trailing Commas"

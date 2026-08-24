@@ -1,0 +1,12 @@
+uid: SR-0044
+type: system_requirement
+status: approved
+title: Define a named function with def, not an assigned lambda
+text: >-
+  Always use a def statement instead of assigning a lambda expression to a name, so that
+  tracebacks and representations carry the real name.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "PEP 8: Programming Recommendations"

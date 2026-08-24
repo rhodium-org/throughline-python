@@ -1,0 +1,11 @@
+uid: UR-0002
+type: user_requirement
+status: approved
+title: String Quotes
+text: >-
+  Rules governing the choice and consistent use of single and double quotes.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "PEP 8: String Quotes"

@@ -1,0 +1,12 @@
+uid: SR-0049
+type: system_requirement
+status: approved
+title: Compare types with isinstance
+text: >-
+  Object type comparisons should always use isinstance() instead of comparing types
+  directly.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "PEP 8: Programming Recommendations"

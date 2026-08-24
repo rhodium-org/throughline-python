@@ -1,0 +1,12 @@
+uid: INT-0001
+type: intent
+status: approved
+title: Python code is consistently formatted and readable across authors
+text: >-
+  PEP 8 exists so that Python code shares one visual style: consistency with this guide,
+  with a project, and within a module is what lets any Python developer read code they did
+  not write. Readability counts, and a shared style guide removes the ad-hoc judgement
+  that makes a codebase harder to maintain than it needs to be.
+normative: false
+attrs:
+  source_ref: "PEP 8"

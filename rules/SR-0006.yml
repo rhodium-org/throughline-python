@@ -1,0 +1,11 @@
+uid: SR-0006
+type: system_requirement
+status: approved
+title: Surround top-level definitions with two blank lines
+text: >-
+  Surround top-level function and class definitions with two blank lines.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "PEP 8: Code Lay-out — Blank Lines"

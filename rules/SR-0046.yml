@@ -1,0 +1,12 @@
+uid: SR-0046
+type: system_requirement
+status: approved
+title: Catch specific exceptions, not a bare except
+text: >-
+  When catching exceptions, name the specific exceptions rather than using a bare except:
+  clause; use except Exception: when you truly must catch all.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "PEP 8: Programming Recommendations"

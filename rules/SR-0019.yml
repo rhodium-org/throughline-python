@@ -1,0 +1,11 @@
+uid: SR-0019
+type: system_requirement
+status: approved
+title: Do not align operators with extra spaces
+text: >-
+  Avoid more than one space around an operator to align it with another.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "PEP 8: Whitespace in Expressions and Statements — Pet Peeves"

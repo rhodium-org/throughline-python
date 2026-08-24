@@ -1,0 +1,12 @@
+uid: SR-0029
+type: system_requirement
+status: approved
+title: Use inline comments sparingly and separated by two spaces
+text: >-
+  Use inline comments sparingly, separate them from the statement by at least two spaces,
+  and start them with a # and a single space.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "PEP 8: Comments — Inline Comments"

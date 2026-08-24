@@ -1,0 +1,12 @@
+uid: SR-0027
+type: system_requirement
+status: approved
+title: Write comments as complete sentences in English
+text: >-
+  Comments should be complete sentences, written in English, with the first word
+  capitalised unless it is an identifier.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "PEP 8: Comments"

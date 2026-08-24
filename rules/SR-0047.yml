@@ -1,0 +1,12 @@
+uid: SR-0047
+type: system_requirement
+status: approved
+title: Be consistent in return statements
+text: >-
+  Be consistent in return statements: either all return an expression or none do, and
+  return None explicitly where a function can fall off the end.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "PEP 8: Programming Recommendations"

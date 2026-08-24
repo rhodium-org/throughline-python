@@ -1,0 +1,11 @@
+uid: UR-0005
+type: user_requirement
+status: approved
+title: Comments and Docstrings
+text: >-
+  Rules governing block comments, inline comments and documentation strings.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "PEP 8: Comments"

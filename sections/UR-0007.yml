@@ -1,0 +1,11 @@
+uid: UR-0007
+type: user_requirement
+status: approved
+title: Programming Recommendations
+text: >-
+  Rules recommending idioms that avoid subtle bugs and read clearly.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "PEP 8: Programming Recommendations"

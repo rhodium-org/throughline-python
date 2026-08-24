@@ -1,0 +1,12 @@
+uid: SR-0012
+type: system_requirement
+status: approved
+title: Avoid wildcard imports
+text: >-
+  Avoid wildcard imports (from module import *), which make it unclear which names are
+  present in the namespace.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "PEP 8: Code Lay-out — Imports"

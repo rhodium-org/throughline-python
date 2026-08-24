@@ -1,0 +1,12 @@
+uid: SR-0030
+type: system_requirement
+status: approved
+title: Write docstrings for all public modules, functions, classes and methods
+text: >-
+  Write docstrings for all public modules, functions, classes and methods, conforming to
+  the conventions of PEP 257.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "PEP 8: Comments — Documentation Strings (PEP 257)"

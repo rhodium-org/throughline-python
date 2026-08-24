@@ -1,0 +1,11 @@
+uid: SR-0034
+type: system_requirement
+status: approved
+title: Name classes with CapWords
+text: >-
+  Class names should normally use the CapWords (also called CamelCase) convention.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "PEP 8: Naming Conventions — Class Names"

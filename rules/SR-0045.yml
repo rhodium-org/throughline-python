@@ -1,0 +1,12 @@
+uid: SR-0045
+type: system_requirement
+status: approved
+title: Derive exceptions from Exception, not BaseException
+text: >-
+  Derive exceptions from Exception rather than BaseException, reserving BaseException for
+  exceptions that should almost never be caught.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "PEP 8: Programming Recommendations"

@@ -1,0 +1,21 @@
+throughline-python
+Copyright 2026 Henry J Grech-Cini
+
+This product includes work developed by Dr Henry J Grech-Cini.
+
+Licensed under the Apache License, Version 2.0. See the LICENSE file for the
+full terms.
+
+This repository is a throughline *source*: a requirements graph, not a program. It
+re-expresses PEP 8 (Style Guide for Python Code) and the docstring conventions of
+PEP 257 as a grounded IDD graph so consuming projects can compose it with
+throughline-compose.
+
+PEP 8 and PEP 257 are published by the Python Software Foundation and their
+authors (Guido van Rossum, Barry Warsaw, Alyssa Coghlan, David Goodger, and
+contributors) and are placed in the public domain / licensed under the CC0 1.0
+and Open Publication License terms that govern the Python Enhancement Proposals.
+The rule text re-expressed here in items' `text`/`attrs.source_ref` is derived
+from those PEPs; this repository claims no ownership over that content and
+reproduces it for interoperability. See https://peps.python.org/pep-0008/ and
+https://peps.python.org/pep-0257/ for the authoritative sources.

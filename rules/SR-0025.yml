@@ -1,0 +1,13 @@
+uid: SR-0025
+type: system_requirement
+status: approved
+title: Put each element on its own line when a trailing comma is used
+text: >-
+  When a trailing comma is used because values, arguments or imports will be extended over
+  time, put each value on its own line with the trailing comma, and the closing bracket on
+  a line by itself.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "PEP 8: When to Use Trailing Commas"
