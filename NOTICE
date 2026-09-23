@@ -9,7 +9,7 @@ full terms.
 This repository is a throughline *source*: a requirements graph, not a program. It
 re-expresses PEP 8 (Style Guide for Python Code) and the docstring conventions of
 PEP 257 as a grounded IDD graph so consuming projects can compose it with
-throughline-compose.
+throughline.
 
 PEP 8 and PEP 257 are published by the Python Software Foundation and their
 authors (Guido van Rossum, Barry Warsaw, Alyssa Coghlan, David Goodger, and
