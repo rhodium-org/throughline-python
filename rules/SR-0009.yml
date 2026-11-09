@@ -1,12 +1,12 @@
 uid: SR-0009
 type: system_requirement
-status: approved
+status: proposed
 title: Place imports at the top of the file
-text: >-
-  Place imports at the top of the file, after any module comments and docstrings and
-  before module globals and constants.
+text: Place imports at the top of the file, after any module comments and docstrings
+  and before module globals and constants.
+normative: true
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: "PEP 8: Code Lay-out — Imports"
+  source_ref: 'PEP 8: Code Lay-out — Imports'

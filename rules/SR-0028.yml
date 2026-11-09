@@ -1,12 +1,12 @@
 uid: SR-0028
 type: system_requirement
-status: approved
+status: proposed
 title: Indent block comments to the code they describe
-text: >-
-  Block comments apply to the code that follows them and are indented to the same level as
-  that code; each line starts with a # and a single space.
+text: 'Block comments apply to the code that follows them and are indented to the
+  same level as that code; each line starts with a # and a single space.'
+normative: true
 links:
 - target: UR-0005
   type: implements
 attrs:
-  source_ref: "PEP 8: Comments — Block Comments"
+  source_ref: 'PEP 8: Comments — Block Comments'

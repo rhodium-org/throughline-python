@@ -1,11 +1,11 @@
 uid: SR-0015
 type: system_requirement
-status: approved
+status: proposed
 title: No whitespace immediately inside brackets
-text: >-
-  Avoid extraneous whitespace immediately inside parentheses, brackets or braces.
+text: Avoid extraneous whitespace immediately inside parentheses, brackets or braces.
+normative: true
 links:
 - target: UR-0003
   type: implements
 attrs:
-  source_ref: "PEP 8: Whitespace in Expressions and Statements — Pet Peeves"
+  source_ref: 'PEP 8: Whitespace in Expressions and Statements — Pet Peeves'

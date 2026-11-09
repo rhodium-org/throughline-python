@@ -1,11 +1,11 @@
 uid: SR-0022
 type: system_requirement
-status: approved
+status: proposed
 title: Avoid trailing whitespace
-text: >-
-  Avoid trailing whitespace anywhere, since it is invisible and can be confusing.
+text: Avoid trailing whitespace anywhere, since it is invisible and can be confusing.
+normative: true
 links:
 - target: UR-0003
   type: implements
 attrs:
-  source_ref: "PEP 8: Whitespace in Expressions and Statements — Other Recommendations"
+  source_ref: 'PEP 8: Whitespace in Expressions and Statements — Other Recommendations'

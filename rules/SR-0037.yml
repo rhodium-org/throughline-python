@@ -1,11 +1,11 @@
 uid: SR-0037
 type: system_requirement
-status: approved
+status: proposed
 title: Prefix non-public members with a single underscore
-text: >-
-  Use one leading underscore for non-public methods and instance variables.
+text: Use one leading underscore for non-public methods and instance variables.
+normative: true
 links:
 - target: UR-0006
   type: implements
 attrs:
-  source_ref: "PEP 8: Naming Conventions — Designing for Inheritance"
+  source_ref: 'PEP 8: Naming Conventions — Designing for Inheritance'
