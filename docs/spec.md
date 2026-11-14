@@ -15,7 +15,7 @@ It carries
 ## Purpose
 
 <!-- tl:item INT-0001 -->
-**INT-0001 — Python code is consistently formatted and readable across authors** — `intent`, status `approved`
+**INT-0001 — Python code is consistently formatted and readable across authors** — `intent`, status `proposed`
 
 > PEP 8 exists so that Python code shares one visual style: consistency with this guide, with a project, and within a module is what lets any Python developer read code they did not write. Readability counts, and a shared style guide removes the ad-hoc judgement that makes a codebase harder to maintain than it needs to be.
 
@@ -25,7 +25,7 @@ It carries
 ## Code Lay-out
 
 <!-- tl:item UR-0001 -->
-**UR-0001 — Code Lay-out** — `user_requirement`, status `approved`
+**UR-0001 — Code Lay-out** — `user_requirement`, status `proposed`
 
 > Rules governing indentation, line length, line breaks, blank lines and imports.
 
@@ -37,25 +37,25 @@ It carries
 <!-- tl:table type == 'system_requirement' and attrs.get('source_ref', '').startswith('PEP 8: Code Lay-out') -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0001 | system_requirement | approved | Use 4 spaces per indentation level |
-| SR-0002 | system_requirement | approved | Indent with spaces, never mixed with tabs |
-| SR-0003 | system_requirement | approved | Limit lines to 79 characters |
-| SR-0004 | system_requirement | approved | Wrap long lines using implied continuation inside brackets |
-| SR-0005 | system_requirement | approved | Break before binary operators |
-| SR-0006 | system_requirement | approved | Surround top-level definitions with two blank lines |
-| SR-0007 | system_requirement | approved | Surround method definitions with one blank line |
-| SR-0008 | system_requirement | approved | Put each import on its own line |
-| SR-0009 | system_requirement | approved | Place imports at the top of the file |
-| SR-0010 | system_requirement | approved | Group imports by origin |
-| SR-0011 | system_requirement | approved | Prefer absolute imports |
-| SR-0012 | system_requirement | approved | Avoid wildcard imports |
-| SR-0013 | system_requirement | approved | Place module-level dunders after the docstring, before imports |
+| SR-0001 | system_requirement | proposed | Use 4 spaces per indentation level |
+| SR-0002 | system_requirement | proposed | Indent with spaces, never mixed with tabs |
+| SR-0003 | system_requirement | proposed | Limit lines to 79 characters |
+| SR-0004 | system_requirement | proposed | Wrap long lines using implied continuation inside brackets |
+| SR-0005 | system_requirement | proposed | Break before binary operators |
+| SR-0006 | system_requirement | proposed | Surround top-level definitions with two blank lines |
+| SR-0007 | system_requirement | proposed | Surround method definitions with one blank line |
+| SR-0008 | system_requirement | proposed | Put each import on its own line |
+| SR-0009 | system_requirement | proposed | Place imports at the top of the file |
+| SR-0010 | system_requirement | proposed | Group imports by origin |
+| SR-0011 | system_requirement | proposed | Prefer absolute imports |
+| SR-0012 | system_requirement | proposed | Avoid wildcard imports |
+| SR-0013 | system_requirement | proposed | Place module-level dunders after the docstring, before imports |
 <!-- tl:end -->
 
 ## String Quotes
 
 <!-- tl:item UR-0002 -->
-**UR-0002 — String Quotes** — `user_requirement`, status `approved`
+**UR-0002 — String Quotes** — `user_requirement`, status `proposed`
 
 > Rules governing the choice and consistent use of single and double quotes.
 
@@ -67,13 +67,13 @@ It carries
 <!-- tl:table type == 'system_requirement' and attrs.get('source_ref', '').startswith('PEP 8: String Quotes') -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0014 | system_requirement | approved | Choose one quote style and use it consistently |
+| SR-0014 | system_requirement | proposed | Choose one quote style and use it consistently |
 <!-- tl:end -->
 
 ## Whitespace in Expressions and Statements
 
 <!-- tl:item UR-0003 -->
-**UR-0003 — Whitespace in Expressions and Statements** — `user_requirement`, status `approved`
+**UR-0003 — Whitespace in Expressions and Statements** — `user_requirement`, status `proposed`
 
 > Rules governing where whitespace does and does not belong within expressions and statements.
 
@@ -85,21 +85,21 @@ It carries
 <!-- tl:table type == 'system_requirement' and attrs.get('source_ref', '').startswith('PEP 8: Whitespace in Expressions and Statements') -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0015 | system_requirement | approved | No whitespace immediately inside brackets |
-| SR-0016 | system_requirement | approved | No whitespace before a comma, semicolon or colon |
-| SR-0017 | system_requirement | approved | Treat the slice colon as a binary operator |
-| SR-0018 | system_requirement | approved | No whitespace before a call or index bracket |
-| SR-0019 | system_requirement | approved | Do not align operators with extra spaces |
-| SR-0020 | system_requirement | approved | Surround binary operators with a single space |
-| SR-0021 | system_requirement | approved | No spaces around = for keyword arguments and defaults |
-| SR-0022 | system_requirement | approved | Avoid trailing whitespace |
-| SR-0023 | system_requirement | approved | Avoid compound statements on one line |
+| SR-0015 | system_requirement | proposed | No whitespace immediately inside brackets |
+| SR-0016 | system_requirement | proposed | No whitespace before a comma, semicolon or colon |
+| SR-0017 | system_requirement | proposed | Treat the slice colon as a binary operator |
+| SR-0018 | system_requirement | proposed | No whitespace before a call or index bracket |
+| SR-0019 | system_requirement | proposed | Do not align operators with extra spaces |
+| SR-0020 | system_requirement | proposed | Surround binary operators with a single space |
+| SR-0021 | system_requirement | proposed | No spaces around = for keyword arguments and defaults |
+| SR-0022 | system_requirement | proposed | Avoid trailing whitespace |
+| SR-0023 | system_requirement | proposed | Avoid compound statements on one line |
 <!-- tl:end -->
 
 ## When to Use Trailing Commas
 
 <!-- tl:item UR-0004 -->
-**UR-0004 — When to Use Trailing Commas** — `user_requirement`, status `approved`
+**UR-0004 — When to Use Trailing Commas** — `user_requirement`, status `proposed`
 
 > Rules governing the use of trailing commas in literals and argument lists.
 
@@ -111,14 +111,14 @@ It carries
 <!-- tl:table type == 'system_requirement' and attrs.get('source_ref', '').startswith('PEP 8: When to Use Trailing Commas') -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0024 | system_requirement | approved | Use a trailing comma for one-element tuples |
-| SR-0025 | system_requirement | approved | Put each element on its own line when a trailing comma is used |
+| SR-0024 | system_requirement | proposed | Use a trailing comma for one-element tuples |
+| SR-0025 | system_requirement | proposed | Put each element on its own line when a trailing comma is used |
 <!-- tl:end -->
 
 ## Comments and Docstrings
 
 <!-- tl:item UR-0005 -->
-**UR-0005 — Comments and Docstrings** — `user_requirement`, status `approved`
+**UR-0005 — Comments and Docstrings** — `user_requirement`, status `proposed`
 
 > Rules governing block comments, inline comments and documentation strings.
 
@@ -130,18 +130,18 @@ It carries
 <!-- tl:table type == 'system_requirement' and attrs.get('source_ref', '').startswith('PEP 8: Comments') -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0026 | system_requirement | approved | Keep comments current with the code |
-| SR-0027 | system_requirement | approved | Write comments as complete sentences in English |
-| SR-0028 | system_requirement | approved | Indent block comments to the code they describe |
-| SR-0029 | system_requirement | approved | Use inline comments sparingly and separated by two spaces |
-| SR-0030 | system_requirement | approved | Write docstrings for all public modules, functions, classes and methods |
-| SR-0031 | system_requirement | approved | Put the closing triple quote of a multi-line docstring on its own line |
+| SR-0026 | system_requirement | proposed | Keep comments current with the code |
+| SR-0027 | system_requirement | proposed | Write comments as complete sentences in English |
+| SR-0028 | system_requirement | proposed | Indent block comments to the code they describe |
+| SR-0029 | system_requirement | proposed | Use inline comments sparingly and separated by two spaces |
+| SR-0030 | system_requirement | proposed | Write docstrings for all public modules, functions, classes and methods |
+| SR-0031 | system_requirement | proposed | Put the closing triple quote of a multi-line docstring on its own line |
 <!-- tl:end -->
 
 ## Naming Conventions
 
 <!-- tl:item UR-0006 -->
-**UR-0006 — Naming Conventions** — `user_requirement`, status `approved`
+**UR-0006 — Naming Conventions** — `user_requirement`, status `proposed`
 
 > Rules governing the naming of modules, packages, classes, functions, variables, constants and exceptions.
 
@@ -153,22 +153,22 @@ It carries
 <!-- tl:table type == 'system_requirement' and attrs.get('source_ref', '').startswith('PEP 8: Naming Conventions') -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0032 | system_requirement | approved | Name modules in short all-lowercase |
-| SR-0033 | system_requirement | approved | Name packages in short all-lowercase without underscores |
-| SR-0034 | system_requirement | approved | Name classes with CapWords |
-| SR-0035 | system_requirement | approved | Name functions and variables in snake_case |
-| SR-0036 | system_requirement | approved | Name constants in UPPER_CASE |
-| SR-0037 | system_requirement | approved | Prefix non-public members with a single underscore |
-| SR-0038 | system_requirement | approved | Use two leading underscores for name-mangled class-private members |
-| SR-0039 | system_requirement | approved | Name the first method argument self or cls |
-| SR-0040 | system_requirement | approved | Never name a variable l, O or I |
-| SR-0041 | system_requirement | approved | End error exception names in Error |
+| SR-0032 | system_requirement | proposed | Name modules in short all-lowercase |
+| SR-0033 | system_requirement | proposed | Name packages in short all-lowercase without underscores |
+| SR-0034 | system_requirement | proposed | Name classes with CapWords |
+| SR-0035 | system_requirement | proposed | Name functions and variables in snake_case |
+| SR-0036 | system_requirement | proposed | Name constants in UPPER_CASE |
+| SR-0037 | system_requirement | proposed | Prefix non-public members with a single underscore |
+| SR-0038 | system_requirement | proposed | Use two leading underscores for name-mangled class-private members |
+| SR-0039 | system_requirement | proposed | Name the first method argument self or cls |
+| SR-0040 | system_requirement | proposed | Never name a variable l, O or I |
+| SR-0041 | system_requirement | proposed | End error exception names in Error |
 <!-- tl:end -->
 
 ## Programming Recommendations
 
 <!-- tl:item UR-0007 -->
-**UR-0007 — Programming Recommendations** — `user_requirement`, status `approved`
+**UR-0007 — Programming Recommendations** — `user_requirement`, status `proposed`
 
 > Rules recommending idioms that avoid subtle bugs and read clearly.
 
@@ -180,16 +180,16 @@ It carries
 <!-- tl:table type == 'system_requirement' and attrs.get('source_ref', '').startswith('PEP 8: Programming Recommendations') -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0042 | system_requirement | approved | Compare to None with is, not equality |
-| SR-0043 | system_requirement | approved | Write is not rather than not ... is |
-| SR-0044 | system_requirement | approved | Define a named function with def, not an assigned lambda |
-| SR-0045 | system_requirement | approved | Derive exceptions from Exception, not BaseException |
-| SR-0046 | system_requirement | approved | Catch specific exceptions, not a bare except |
-| SR-0047 | system_requirement | approved | Be consistent in return statements |
-| SR-0048 | system_requirement | approved | Use startswith and endswith for prefix and suffix checks |
-| SR-0049 | system_requirement | approved | Compare types with isinstance |
-| SR-0050 | system_requirement | approved | Test emptiness by truthiness, not length |
-| SR-0051 | system_requirement | approved | Do not compare boolean values with == |
-| SR-0052 | system_requirement | approved | Use context managers to release resources |
+| SR-0042 | system_requirement | proposed | Compare to None with is, not equality |
+| SR-0043 | system_requirement | proposed | Write is not rather than not ... is |
+| SR-0044 | system_requirement | proposed | Define a named function with def, not an assigned lambda |
+| SR-0045 | system_requirement | proposed | Derive exceptions from Exception, not BaseException |
+| SR-0046 | system_requirement | proposed | Catch specific exceptions, not a bare except |
+| SR-0047 | system_requirement | proposed | Be consistent in return statements |
+| SR-0048 | system_requirement | proposed | Use startswith and endswith for prefix and suffix checks |
+| SR-0049 | system_requirement | proposed | Compare types with isinstance |
+| SR-0050 | system_requirement | proposed | Test emptiness by truthiness, not length |
+| SR-0051 | system_requirement | proposed | Do not compare boolean values with == |
+| SR-0052 | system_requirement | proposed | Use context managers to release resources |
 <!-- tl:end -->
 
